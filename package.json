@@ -6,6 +6,7 @@
   },
   "scripts": {
     "test:report": "playwright show-report",
-    "test:template": "playwright test tests/qshop/template.spec.js --config=playwright.config.js --project=Chromium"
+    "test:template-ui": "playwright test tests/qshop/template/template.ui.spec.js --config=playwright.config.js --project=Chromium",
+    "test:template-api": "playwright test tests/qshop/template/template.api.spec.js --config=playwright.config.js --project=Chromium"
   }
 }

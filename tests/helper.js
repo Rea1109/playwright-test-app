@@ -8,6 +8,7 @@ export const login = async page => {
   await page.getByRole('button', { name: '로그인' }).click()
 }
 
+/** 배송 템플릿 페이지 */
 export const setUpTemplatePage = async page => {
   await login(page)
   await page.getByRole('button', { name: '상품', exact: true }).click()
